@@ -1,14 +1,12 @@
-# AzReco Speech Recognition API Python example
-Example python script to help you integrate with our speech recognition API.
+# AzReco Text To Speech API Python example
+Example python script to help you integrate with our text-to-speech API.
 
-This is an example python script for uploading audio(.wav , .mp3 , .opus, .m4a) or video(.mp4 , .mkv) file and saving the transcript into a .json file.
+This is an example python script for uploading text file and saving the audio into a .wav file.
 
 # Supporting languages
 AZERBAIJANI (az-AZ)
 
 TURKISH  (tr-TR)
-
-RUSSIAN  (ru-RU)
 
 # Requirements
 
@@ -18,9 +16,9 @@ pip install requests
 
 # Usage example:
 
-python client.py -a audio/example-ru.wav -l ru-RU -i api_user_id -k api_token -o example-ru.json  
+python client.py -t text/example-tr.txt -l tr-TR -i api_user_id -k api_token -o example-tr.wav  
 
-In this example the script uploads 'example.wav', transcribes it using our ru-RU speech to text and saves the resulting transcription as 'example.json' when the transcribing process finished.
+In this example the script uploads 'example-tr.txt', synthesizes speech using our tr-TR text-to-speech and saves the resulting audio as 'example-tr.wav' when the synthesizing process finished.
 
 
 # How to get user id and token?
