@@ -91,7 +91,7 @@ def parse_args():
                         help="Your text-to-speech API Token")
     parser.add_argument('-l', '--lang', type=str, required=True,
                         help="Code of language to use (e.g., az-AZ, tr-TR)")
-    parser.add_argument('--tts-id', type=str, required=False, help='Identificator of voice for given language. To see identificator of voices call get_voices() method of Synthesizer class.')
+    parser.add_argument('--tts-id', type=str, required=False, help='Identification of voice for given language. To see identification of voices call get_voices() method of Synthesizer class.')
     parsed = parser.parse_args()
 
     return parsed

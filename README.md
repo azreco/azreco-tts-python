@@ -1,7 +1,7 @@
 # AzReco **Text To Speech** API python example
 Sample python script to help you integrate with our text-to-speech API.
 
-This is a sample python script for uploading text file and saving the audio into a .wav file.
+This is a sample python script for uploading text file or text and saving the audio into a .wav file.
 
 # Supported languages
 Azerbaijani (az-AZ)
