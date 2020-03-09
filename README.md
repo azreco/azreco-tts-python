@@ -33,7 +33,7 @@ This option is optional and TTS service selects default voice for the given lang
 
 # How to get voice identifications?
 
-We added new REST get method [http://api.azreco.az/voices?api_id=YOUR_API_ID&api_token=YOUR_API_TOKEN]. You can call this method in any browser. We also added this into the **Synthesizer** class
+We added new REST get method [http://api.azreco.az/voices?api_id=YOUR_API_ID&api_token=YOUR_API_TOKEN](http://api.azreco.az/voices?api_id=YOUR_API_ID&api_token=YOUR_API_TOKEN). You can call this method in any browser. We also added this into the **Synthesizer** class
 as a method. The result is JSON array of voice informations. For example:
 ```json
 [   
