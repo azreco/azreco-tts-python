@@ -24,6 +24,8 @@ or
 
 python client.py --input-type text -t "any text" -l tr-TR -i api_user_id -k api_token --tts-id tts_id -o example-tr.wav  
 
+The above command with input type 'file' the script uploads 'example-tr.txt', synthesizes speech using our tr-TR text-to-speech and saves the resulting audio as 'example-tr.wav' when the synthesizing process finished. The above command with input type 'text' the script sends text to the server, synthesizes speech using our tr-TR text-to-speech and saves the resulting audio as 'example-tr.wav' when the synthesizing process finished. 
+
 # What is --tts-id option?
 
 We have several voices for any language. Every voice has own identification. You can specify TTS identification with this option to get your audio file in different voices.
@@ -41,9 +43,6 @@ as a method. The result is JSON array of voice informations. For example:
 		}
 ]
 ```
-
-In this example for input type 'file' the script uploads 'example-tr.txt', synthesizes speech using our tr-TR text-to-speech and saves the resulting audio as 'example-tr.wav' when the synthesizing process finished. For input type 'text' the script sends text to the server, synthesizes speech using our tr-TR text-to-speech and saves the resulting audio as 'example-tr.wav' when the synthesizing process finished. 
-
 
 # How to get user id and token?
 
